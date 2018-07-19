@@ -71,7 +71,7 @@ div#landingimage div div div p#description{
 }
 
 #aboutme div div #info{
-	font-size: 18px;
+	font-size: 15px;
 }
 
 #aboutme div div.col-md-4 #info{
@@ -229,51 +229,91 @@ div#section-3 div div div#training div#tuitt div img{
 	width: 50px;
 }
 
-div#section-3 div div div#training div#tuitt div div div.d-inline-block p,
+div#section-3 div div div#training div#tuitt div div div.d-inline-block p
 {	font-size: 15px;
 }
 div#section-3 div div div#training div#tuitt div div p.mt-0{
 	font-size: 14px;
 }
 
-div#section-3 div div.col-md-6 div#skills{
+div#section-3 div div.col-md-8 div#skills{
 	padding: 20px;
 	/*color: red;*/
 }
 
-div#section-3 div div.col-md-6 div#skills div .progress{
+div#section-3 div div.col-md-4 div#skills{
+	padding: 20px;
+	/*color: red;*/
+}
+div#section-3 div div.col-md-4 div#skills div .progress{
 	margin-bottom: 15px;
 	border-radius:0;
 	overflow:visible;
 	height: 10px;
 }
 
-div#section-3 div div.col-md-6 div#skills div div p#label{
+div#section-3 div div.col-md-4 div#skills div div p#label{
 	margin-left: 5px;
 	margin-right: 5px;
 }
 
-div#section-3 div div.col-md-6 div#skills div div .progress-bar{ 
+div#section-3 div div.col-md-4 div#skills div div .progress-bar{ 
 	background:#1d1e21; 
 	-webkit-transition: width 1.5s ease-in-out;
 	transition: width 1.5s ease-in-out;
 
 }
 
-div#section-3 div div.col-md-6 div#skills .imageprogress{
+div#section-3 div div.col-md-8 div#skills div div.col-md-6{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+div#section-3 div div.col-md-8 div#skills div div div .imageprogress{
 	padding-bottom: 10px;
 }
 
-div#section-3 div div.col-md-6 div#skills div img{
+div#section-3 div div.col-md-8 div#skills div div div div img{
 	width: 50px;
 	margin-left: 10px;
 }
 
-div#section-3 div div.col-md-6 div#skills div img[src="img/css.png"]{
+div#section-3 div div.col-md-8 div#skills div div div div img[src="img/css.png"]{
 	width: 38px;
 	/*padding-bottom: 10px;*/
 }
 
+div#section-3 div div.col-md-8 div#skills div div div div img[src="img/mysql-mariadb.png"]{
+	width: 83px;
+	/*padding-bottom: 10px;*/
+}
+
+div#section-3 div div.col-md-8 div#skills div div div div img[src="img/laravel.png"]{
+	width: 70px;
+	/*padding-bottom: 10px;*/
+}
+
+
+/*My works*/
+#section-4{
+	padding-top: 30px;
+}
+
+div#section-4 div div div.border{
+	padding: 20px;
+}
+
+div#section-4 div div div div div.col-md-4{
+	padding: 10px;
+	/*height: 200px;*/
+}
+
+div#section-4 div div div div div.col-md-4 div div.text-center{
+	height: 200px;
+	background: linear-gradient(rgba(0, 0, 0, .6), rgba(0,0,0,.7)), url('../img/10.jpg');
+
+
+}
 
 
 /*Media queries*/
