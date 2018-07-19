@@ -3,7 +3,7 @@
 // });  
 
 $( window ).scroll(function() {   
- if($( window ).scrollTop() > 10){  // scroll down abit and get the action   
+ if($( window ).scrollTop() > 5){  // scroll down abit and get the action   
   $(".progress-bar").each(function(){
     each_bar_width = $(this).attr('aria-valuenow');
     $(this).width(each_bar_width + '%');
@@ -11,3 +11,5 @@ $( window ).scroll(function() {
        
   }  
 });
+
+new WOW().init();

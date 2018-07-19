@@ -122,16 +122,17 @@ div#landingimage div div div p#description{
 	padding-top: 30px;
 }
 
-div#section-2 div.row{
-	padding-bottom: 10px;
+div#section-2 div div.col-md-4 div div#carousel-work div.carousel-inner{
+	height: 500px;
+
 }
 
 div#section-2 div div.col-md-4 .border{
 	padding: 20px;
 }
 
-div#section-2 div div.col-md-4 div.border p#gained{
-	margin-bottom: 20px;
+div#section-2 div div.col-md-4 div.border div div div p#gained{
+	margin-bottom: 30px;
 	font-size: 2em;
 }
 
@@ -141,7 +142,7 @@ div#section-2 div div.col-md-4 div div.barWrapper p{
 }
 
 div#section-2 div div.col-md-4 div div .progress{
-	margin-bottom: 10px;
+	margin-bottom: 35px;
 	border-radius:0;
 	overflow:visible;
 	height: 10px;
@@ -152,6 +153,9 @@ div#section-2 div div.col-md-4 div div div .progress-bar{
 	transition: width 1.5s ease-in-out;
 
 }
+div#section-2 div div.col-md-4 div div div div.media-body p.mt-0{
+	font-size: 16px;
+}
 
 div#section-2 div div div div#schools{
 	margin-top: 15px;
@@ -159,6 +163,7 @@ div#section-2 div div div div#schools{
 
 div#section-2 div div.col-md-8 .border{
 	padding: 20px;
+	margin-bottom: 25px;
 }
  
 div#section-2 div div.col-md-8 div div div.media img{
@@ -176,51 +181,59 @@ div#section-2 div div.col-md-8 div div div div.media-body p span{
 	font-weight: 400;
 }
 
-div#section-2 div div.col-md-4 div div div div.media-body p.mt-0{
-	font-size: 16px;
-}
 
 div#section-2 div div.col-md-8 div div div div.media-body p#year{
 	font-size: 18px;
 }
 
-/*Work experiemce*/
-
-div#section-2 div div.col-md-8 div div#carousel-example-1z{
-	height: 50vh;
-	width: 100%;
-}
-
-div#section-2 div div.col-md-8 div div#work{
-	margin-top: 15px;
-}
-
-div#section-2 div div.col-md-8 div div#work ul li div.media-body p#year{
-	font-size: 20px;
-}
-
-div#section-2 div div.col-md-8 div div#work ul li div div.pull-right {
+div#section-2 div div.col-md-8 div.border div#work ul li div.media-body div.pull-right p{
 	font-size: 45px;
 	color: #ececec;
 	opacity: 1;
-	font-weight: 400;
+	font-weight: 400;	
 }
 
-div#section-2 div div.col-md-8 div div#work ul li div p.mt-0{
-	font-size: 16px;
-}
-
-div#section-2 div div.col-md-8 div div#work ul li div div ul li{
+div#section-2 div div.col-md-8 div.border div#work ul li div.media-body p.mt-0{
 	font-size: 15px;
 }
 
+div#section-2 div div.col-md-8 div.border div#work ul li div.media-body p#year{
+	font-size: 18px;
+}
 
+div#section-2 div div.col-md-8 div.border div#work ul li div.media-body div ul li p.position{
+	font-size: 15px;
+}
 
-
+div#section-2 div div.col-md-8 div.border div#work ul li div.media-body div ul li ul li {
+	font-size: 12px;
+}
 /*Section 3*/
 
 #section-3{
 	padding-top: 30px;
+}
+
+div#section-3 div div div#training {
+	padding: 20px;
+}
+
+div#section-3 div div div#training div#tuitt div div div.pull-right{
+	font-size: 45px;
+	color: #ececec;
+	opacity: 1;
+	font-weight: 400;	
+}
+
+div#section-3 div div div#training div#tuitt div img{
+	width: 50px;
+}
+
+div#section-3 div div div#training div#tuitt div div div.d-inline-block p,
+{	font-size: 15px;
+}
+div#section-3 div div div#training div#tuitt div div p.mt-0{
+	font-size: 14px;
 }
 
 div#section-3 div div.col-md-6 div#skills{
@@ -263,33 +276,16 @@ div#section-3 div div.col-md-6 div#skills div img[src="img/css.png"]{
 
 
 
+/*Media queries*/
+@media (min-width: 320px) and (max-width: 480px){
 
-
-
-/*CSS ng ewan ko*/
-/*div#profile img#imageprof{
-	width:10px; 
-	border-radius: 350px;
-	margin-left: 100px;
-	margin: auto;
+div#section-2 div div.col-md-4 div div .progress{
+	margin-bottom: 30px;
+	border-radius:0;
+	overflow:visible;
+	height: 10px;
 }
 
-#websites{
-	background-color: #37a9d3;
-}
 
-div#mycontact{
-	background-color: black;
-	padding: 50px;
-}
 
-#contactform{
-	border: 1px solid black;
 }
-
-#mycontact p#imready{
-	color: white;
-	font-size: 50px;
-	font-family: 'Mitr', sans-serif;
-}
-*/
